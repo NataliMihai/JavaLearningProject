@@ -28,6 +28,12 @@ public class GitWorkFlow {
         String step9 = "9) If there are NO comments and the code is approved (changes), then we merge the code";
         String step9sp = "";
 
+
+        String step9_1 = "9_1) If there are some comments, then we go to back to local branch Task-1 -> in IntelliJ IDEA ";
+        String step9_2 = "9_2) We add the changes and modify the last commit , by using the command - git commit amend";
+        String step9_3 = "9_3) Then we gave to execute the  - git push -f  - command, (incarcarea fortata a modificarilor pe Cloud)";
+        String step9sp1 = "";
+
         // As result, the origin/master will have the latest code that was previously added in the origin/Task-1
 
         String step10 = "10) Go back to IntelliJ IDEA  where we are on Task-1 branch, and move to the master - git checkout master";
@@ -51,6 +57,11 @@ public class GitWorkFlow {
         System.out.println(step8);
         System.out.println(step9);
         System.out.println(step9sp);
+        //
+        System.out.println(step9_1);
+        System.out.println(step9_2);
+        System.out.println(step9_3);
+        System.out.println(step9sp1);
         //
         System.out.println(step10);
         System.out.println(step11);
