@@ -46,9 +46,9 @@ public class ChisinauEvidenceCatalog {
 
         ion001.printValidCodIdnp();
 
-        //olga001.printValicodIdnp();
+        olga001.printValidCodIdnp();
 
-        //person.printValicodIdnp();
+        person.printValidCodIdnp();
 
     }
 }
