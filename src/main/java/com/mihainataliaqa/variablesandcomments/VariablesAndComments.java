@@ -54,5 +54,8 @@ public class VariablesAndComments {
         System.out.println("Valoare var Char este: " + lastCharFromAscii);
         System.out.println("Valorile var. de tip Byte sunt in limite: [" + lowerLimitOfByteDataType + " ; " + upperLimitOfByteDataType + "]");
 
+
+
+
     }
 }
