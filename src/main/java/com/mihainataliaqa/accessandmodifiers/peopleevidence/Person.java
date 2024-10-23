@@ -1,6 +1,8 @@
 package com.mihainataliaqa.accessandmodifiers.peopleevidence;
 
-import static jdk.nashorn.internal.objects.ArrayBufferView.length;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
 
 public class Person {
 
@@ -56,9 +58,9 @@ public class Person {
         }
         ///
         this.isRetired = isRetired;
-        this.codIdnp =
+        this.codIdnp = codIdnp;
 
-    }
+     }
 
     public void setAge(int enteredAge) {
         if (enteredAge > 0 && enteredAge < 100) {
@@ -99,9 +101,11 @@ public class Person {
 
     /// constructorul nu primeste valori
     public void printValidCodIdnp() {
-        this.codIdnp = 25; //this.ID;
+        this.codIdnp =   this.ID; //25;
+        //String.valueOf(this.codIdnp).length()
 
-        if (length(this.codIdnp) > 6 && length(this.codIdnp) < 6) {
+        //if (length(this.codIdnp) > 6 || length(this.codIdnp) < 6) {
+        if (String.valueOf(this.codIdnp).length() != 6) {
             System.out.println("Pentru " + this.firstName + " codIdnp:" + this.codIdnp + " este INCORECT !!!");
         } else {
             System.out.println(this.firstName + "atributul" + " codIdnp:" + this.codIdnp + " este VALID.");
