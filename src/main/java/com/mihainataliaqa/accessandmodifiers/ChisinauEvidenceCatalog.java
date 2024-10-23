@@ -51,3 +51,4 @@ public class ChisinauEvidenceCatalog {
         //person.printValicodIdnp();
 
     }
+}
